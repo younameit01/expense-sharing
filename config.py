@@ -1,0 +1,7 @@
+DEBUG = True
+SECRET_KEY = "445406e4d487d3da93138a72ad72b2e8ee831d1642e311970aa1f76cea702c90"
+DB_USER = "root"
+DB_PASSWORD = "mypass123"
+DB_NAME = "expense_sharing"
+DB_HOST = "localhost"
+SQLALCHEMY_DATABASE_URI = f'mysql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}/{DB_NAME}'
